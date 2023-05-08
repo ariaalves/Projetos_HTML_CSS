@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/deliciosa-sobremesa-de-acai-com-kiwi.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.home a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo h1{
+    float: left;
+    width: 150px;
+    height: auto;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navegacao{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.titulo{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #E5B867;
+    font-size: 60px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.btn{
+   border:1px solid #fff;
+   padding: 5px 20px;
+   margin-right: 10px; 
+   color: #fff;
+   transition: 0.5 ease;
+   font-size: 18px;
+   text-decoration: none;
+}
+.btn:hover{
+    background-color: #E5B867;
+    color: #000;
+}
+
